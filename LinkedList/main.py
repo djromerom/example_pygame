@@ -1,8 +1,8 @@
 import pygame
 import random
 
-from LinkedList.LinkedList import LinkedList
-from LinkedList.Snake import Snake
+from LinkedList import LinkedList
+from Snake import Snake
 
 pygame.init()
 

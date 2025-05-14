@@ -29,9 +29,11 @@ while running:
     # Actualizar
     all_sprites.update()
 
+
     # Dibujar
     screen.blit(background, (0, 0))  # Fondo
     all_sprites.draw(screen)          # Jugador
+    player.draw_health_bar(surface=screen)
     pygame.display.flip()
 
 pygame.quit()

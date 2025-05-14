@@ -1,4 +1,4 @@
-from LinkedList.Node import Node
+from Node import Node
 
 class Snake(Node):
     def __init__(self,  x, y):

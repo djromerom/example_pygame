@@ -49,6 +49,9 @@ class Player(pygame.sprite.Sprite):
             self.direction = 'down'
             moving = True
 
+        if keys[pygame.K_SPACE]:
+            self.take_damage(1)
+
         if moving:
             self.animate()
         else:
